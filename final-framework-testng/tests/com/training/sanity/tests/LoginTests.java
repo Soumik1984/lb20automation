@@ -21,7 +21,8 @@ public class LoginTests {
 	private String baseUrl;
 	private LoginPOM loginPOM;
 	private static Properties properties;
-	private ScreenShot screenShot;
+	//private ScreenShot screenShot;
+	
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws IOException {
@@ -35,7 +36,7 @@ public class LoginTests {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		loginPOM = new LoginPOM(driver); 
 		baseUrl = properties.getProperty("baseURL");
-		screenShot = new ScreenShot(driver); 
+		//screenShot = new ScreenShot(driver); 
 		// open the browser 
 		driver.get(baseUrl);
 	}
@@ -47,9 +48,11 @@ public class LoginTests {
 	}
 	@Test
 	public void validLoginTest() {
-		loginPOM.sendUserName("admin");
-		loginPOM.sendPassword("admin@123");
-		loginPOM.clickLoginBtn(); 
-		screenShot.captureScreenShot("First");
-	}
+		loginPOM.LoginUser("soumikbiswas1984","Mar@20mar");
+		//loginPOM.sendUserName("soumikbiswas1984");
+		//loginPOM.sendPassword("Mar@20mar");
+		//loginPOM.clickLoginBtn(); 
+		//screenShot.captureScreenShot("First");
+	}	
+	
 }
