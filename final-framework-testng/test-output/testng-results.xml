@@ -1,173 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="168859" started-at="2020-04-15T18:45:41Z" finished-at="2020-04-15T18:48:30Z">
+  <suite name="Default suite" duration-ms="40252" started-at="2020-04-16T20:08:24Z" finished-at="2020-04-16T20:09:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="168859" started-at="2020-04-15T18:45:41Z" finished-at="2020-04-15T18:48:30Z">
-      <class name="com.training.sanity.tests.SeleniumTestsTC74">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="setUpBeforeClass" is-config="true" duration-ms="21" started-at="2020-04-16T00:15:41Z" finished-at="2020-04-16T00:15:41Z">
+    <test name="Default test" duration-ms="40252" started-at="2020-04-16T20:08:24Z" finished-at="2020-04-16T20:09:04Z">
+      <class name="com.training.sanity.tests.SeleniumTestsTC73">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC73@ea4a92b]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2020-04-17T01:38:24Z" finished-at="2020-04-17T01:38:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="setUp" is-config="true" duration-ms="25891" started-at="2020-04-16T00:15:41Z" finished-at="2020-04-16T00:16:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC73@ea4a92b]" name="setUp" is-config="true" duration-ms="16470" started-at="2020-04-17T01:38:24Z" finished-at="2020-04-17T01:38:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="user(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="user" duration-ms="25064" started-at="2020-04-16T00:16:07Z" data-provider="TestData" finished-at="2020-04-16T00:16:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[@!]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="Testcase73()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC73@ea4a92b]" name="Testcase73" duration-ms="21968" started-at="2020-04-17T01:38:40Z" finished-at="2020-04-17T01:39:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="tearDown" is-config="true" duration-ms="1794" started-at="2020-04-16T00:16:32Z" finished-at="2020-04-16T00:16:34Z">
+        </test-method> <!-- Testcase73 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC73@ea4a92b]" name="tearDown" is-config="true" duration-ms="1797" started-at="2020-04-17T01:39:02Z" finished-at="2020-04-17T01:39:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="setUp" is-config="true" duration-ms="23716" started-at="2020-04-16T00:16:34Z" finished-at="2020-04-16T00:16:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="user(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="user" duration-ms="11892" started-at="2020-04-16T00:16:58Z" data-provider="TestData" finished-at="2020-04-16T00:17:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[asd#@!#]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="tearDown" is-config="true" duration-ms="1891" started-at="2020-04-16T00:17:10Z" finished-at="2020-04-16T00:17:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="setUp" is-config="true" duration-ms="21333" started-at="2020-04-16T00:17:11Z" finished-at="2020-04-16T00:17:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="user(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="user" duration-ms="11691" started-at="2020-04-16T00:17:33Z" data-provider="TestData" finished-at="2020-04-16T00:17:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Blended Learning]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[!@##!@]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="tearDown" is-config="true" duration-ms="1774" started-at="2020-04-16T00:17:44Z" finished-at="2020-04-16T00:17:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="setUp" is-config="true" duration-ms="22872" started-at="2020-04-16T00:17:46Z" finished-at="2020-04-16T00:18:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="user(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="user" duration-ms="18943" started-at="2020-04-16T00:18:09Z" data-provider="TestData" finished-at="2020-04-16T00:18:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Blended Learning]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Selenium]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[BL]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1234234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SeleniumTestsTC74@47f37ef1]" name="tearDown" is-config="true" duration-ms="1779" started-at="2020-04-16T00:18:28Z" finished-at="2020-04-16T00:18:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.SeleniumTestsTC74 -->
+      </class> <!-- com.training.sanity.tests.SeleniumTestsTC73 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
